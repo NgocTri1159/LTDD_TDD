@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "110209369523",
-    "project_id": "ltdd-appquizz-master",
-    "storage_bucket": "ltdd-appquizz-master.firebasestorage.app"
+    "project_number": "400440828262",
+    "project_id": "fir-bcacd",
+    "storage_bucket": "fir-bcacd.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:110209369523:android:ba4a1e9dece3aa146c37c6",
+        "mobilesdk_app_id": "1:400440828262:android:d9da42a74c6ce9f9ae68a7",
         "android_client_info": {
-          "package_name": "com.example.quizz_master"
+          "package_name": "com.example.quiz_app"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB6SvvqmcldY1sRhXmLZ1EYCj9cnEeAOCo"
+          "current_key": "AIzaSyBwWzqSS-SvFsO4EtkPWjjbHsuoy5dkzew"
         }
       ],
       "services": {
