@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'views/admin_category_screen.dart'; 
 import 'firebase_options.dart';
+import 'views/quiz_list_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +25,7 @@ class QuizMasterApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // Tạm thời trỏ thẳng vào màn hình Quản lý môn học để test
-      home: AdminCategoryScreen(), 
+      home: QuizListScreen(), 
     );
   }
 }

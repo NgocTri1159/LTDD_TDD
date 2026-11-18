@@ -23,9 +23,15 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         return windows;
       case TargetPlatform.linux:
@@ -41,48 +47,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCD_8Uw3Eo2UEMSmp8gWSHcuQ43owm7QP8',
-    appId: '1:400440828262:web:05cec3724f22b0b9ae68a7',
-    messagingSenderId: '400440828262',
-    projectId: 'fir-bcacd',
-    authDomain: 'fir-bcacd.firebaseapp.com',
-    storageBucket: 'fir-bcacd.firebasestorage.app',
-    measurementId: 'G-KKHY9QFYGF',
+    apiKey: 'AIzaSyBdetgZO8hUp28ysjfu5VgowkaCZuTMQUo',
+    appId: '1:110209369523:web:3e52d90ab62a8bec6c37c6',
+    messagingSenderId: '110209369523',
+    projectId: 'ltdd-appquizz-master',
+    authDomain: 'ltdd-appquizz-master.firebaseapp.com',
+    storageBucket: 'ltdd-appquizz-master.firebasestorage.app',
+    measurementId: 'G-QWXLTBH5JJ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBwWzqSS-SvFsO4EtkPWjjbHsuoy5dkzew',
-    appId: '1:400440828262:android:d9da42a74c6ce9f9ae68a7',
-    messagingSenderId: '400440828262',
-    projectId: 'fir-bcacd',
-    storageBucket: 'fir-bcacd.firebasestorage.app',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAmZKq7bF4C2wCYZzHNHgyrxbIVsuzFfgQ',
-    appId: '1:400440828262:ios:f193546c3a59e4a5ae68a7',
-    messagingSenderId: '400440828262',
-    projectId: 'fir-bcacd',
-    storageBucket: 'fir-bcacd.firebasestorage.app',
-    iosBundleId: 'com.example.quizApp',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAmZKq7bF4C2wCYZzHNHgyrxbIVsuzFfgQ',
-    appId: '1:400440828262:ios:f193546c3a59e4a5ae68a7',
-    messagingSenderId: '400440828262',
-    projectId: 'fir-bcacd',
-    storageBucket: 'fir-bcacd.firebasestorage.app',
-    iosBundleId: 'com.example.quizApp',
+    apiKey: 'AIzaSyB6SvvqmcldY1sRhXmLZ1EYCj9cnEeAOCo',
+    appId: '1:110209369523:android:48fafed7cb5f3b426c37c6',
+    messagingSenderId: '110209369523',
+    projectId: 'ltdd-appquizz-master',
+    storageBucket: 'ltdd-appquizz-master.firebasestorage.app',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCD_8Uw3Eo2UEMSmp8gWSHcuQ43owm7QP8',
-    appId: '1:400440828262:web:8f00d734c9b52c98ae68a7',
-    messagingSenderId: '400440828262',
-    projectId: 'fir-bcacd',
-    authDomain: 'fir-bcacd.firebaseapp.com',
-    storageBucket: 'fir-bcacd.firebasestorage.app',
-    measurementId: 'G-YXESNGH9W1',
+    apiKey: 'AIzaSyBdetgZO8hUp28ysjfu5VgowkaCZuTMQUo',
+    appId: '1:110209369523:web:f0e36deb0ce6728e6c37c6',
+    messagingSenderId: '110209369523',
+    projectId: 'ltdd-appquizz-master',
+    authDomain: 'ltdd-appquizz-master.firebaseapp.com',
+    storageBucket: 'ltdd-appquizz-master.firebasestorage.app',
+    measurementId: 'G-B32Z47VGMH',
   );
 }
